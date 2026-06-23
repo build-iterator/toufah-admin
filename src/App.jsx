@@ -1,11 +1,11 @@
-import { NavMain } from "@/components/nav-main";
-import { Button } from "@/components/ui/button";
+import { BrowserRouter } from "react-router";
+import Router from "@/router/index";
 
 function App() {
   return (
-    <>
-      <NavMain />
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
 
